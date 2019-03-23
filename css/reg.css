@@ -1,0 +1,54 @@
+.navbar._2019 {
+    background-color: #f1e8d9;
+}
+
+.navlink.register-nav {
+    border-radius: 40px;
+    background-color: #9dabbd;
+    /*color: black;*/
+    font-weight: 900;
+}
+
+.jumbotronn {
+    position: relative;
+    height: 56vh;
+    width: 100%;
+    background-image: url(/img/bart-jaillet-476249-unsplash.jpg);
+    filter: contrast(110%) opacity(90%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    margin-bottom: 0px;
+    z-index: 100;
+}
+
+.regbtn-wrapper {
+    position: relative;
+    display: block;
+    padding: auto;
+    background-color: #BCE2E6;
+    background-image: url();
+    background-image: url();
+    background-image: url("../img/background-snow.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    color: #fff;
+}
+
+.button-size {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Allerta Stencil', sans-serif;
+
+
+}
+
+.form {
+    background-color: transparent;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+}
