@@ -336,7 +336,8 @@ div.map {
 }
 
 h4.sess {
-    font-size: 13px;
+    font-size: 14px;
+    white-space: nowrap;
 }
 
 @media only screen and (max-width: 415px) {
