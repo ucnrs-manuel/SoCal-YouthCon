@@ -5,38 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
     <title>SoCal Youth Conference</title>
     <!-- LAST MODIFIED => 3/21/2019 -->
     <!-- Don't look at my Spaghetti code -->
     <!-- BootStrap 4 -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    
-    <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://uploads-ssl.webflow.com/56c4d46f1457615e44ce9537/css/vous-conference-2019.7279d7bad.css" rel="stylesheet" type="text/css">
-    
+
+    <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://uploads-ssl.webflow.com/56c4d46f1457615e44ce9537/css/vous-conference-2019.7279d7bad.css"
+        rel="stylesheet" type="text/css">
+
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Arimo:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/css/countdown.css" type="text/css">
 </head>
 
 <body>
     <!-- Nav BAR -->
     <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar _2019 w-nav">
+        <div class="soc-icon">
+            <a target="blank" href="https://www.instagram.com/socalyouthcon/"><span
+                    style="color: black; font-weight: bolder;"><i class="fab fa-instagram fa-2x"></i></span></a>
+            <a class="circle" target="blank" href="https://www.facebook.com/So-Cal-Youth-Con-2259917000945821/"><span
+                    style="color: #3C5A99; font-weight: bolder;"><i class="fab fa-facebook-square fa-2x"></i></span></a>
+        </div>
+
+        <div class="logo-icon">
+            <a href="#" class="w-nav-brand"><img src="/img/YCLOGO.png" width="100" alt="" class="navlogo"></a>
+        </div>
+
         <div class="navcontainer w-container">
 
             <!-- Replace logo with SOCAL YOUTHCON LOGO -->
-            <!-- <a href="/old-home" class="w-nav-brand"><img src="https://uploads-ssl.webflow.com/56c4d46f1457615e44ce9537/56c610705f4a7cf431e7bf63_vous-logo.svg" -->
-            <!-- width="80" alt="" class="navlogo"></a> -->
+            <!-- <div class="logo-icon">
+                <a href="/old-home" class="w-nav-brand"><img src="/Web Package/YCLOGO.png" width="80" alt=""
+                        class="navlogo"></a>
+            </div> -->
+
             <nav role="navigation" class="navmenu w-nav-menu">
                 <a href="#about" class="navlink menuopen w-nav-link" style="max-width: 940px;">about</a>
-                <a href="#video" class="navlink menuopen w-nav-link" style="max-width: 940px;">watch
-                    video</a>
                 <a href="#prices" class="navlink menuopen w-nav-link" style="max-width: 940px;">PRICE</a>
-                <a href="/faq" class="navlink menuopen w-nav-link" style="max-width: 940px;">FAQs</a>
-                <a href="/html/registration.html" class="navlink register-nav _2019 w-nav-link" style="max-width: 940px;">Register</a>
+                <a href="#mission" class="navlink menuopen w-nav-link" style="max-width: 940px;">Mission</a>
+                <a href="#" class="navlink menuopen w-nav-link" style="max-width: 940px;">Media</a>
+                <a href="/html/registration.html" class="navlink register-nav _2019 w-nav-link"
+                    style="max-width: 940px;">Register</a>
             </nav>
             <div class="menuactive w-nav-button">
                 <div class="menu w-icon-nav-menu"></div>
@@ -48,53 +67,62 @@
     <!-- JUMBOTRON -->
     <div class="hero-wrapper _2019hero">
         <div class="billawesome">
+            <!-- Insert Logo Image -->
             <h1 class="title text">SoCal Youth Conference</h1>
         </div>
-        <!-- Social Icons -->
-        <div class="social-container">
-            <div class="social-icon">
-                <a target="blank" href="https://www.instagram.com/socalyouthcon/"><span style="color: black; font-weight: bolder;"><i
-                            class="fab fa-instagram fa-4x"></i></span></a>
-
-                <a class="circle" target="blank" href="https://www.facebook.com/So-Cal-Youth-Con-2259917000945821/"><span
-                        style="color: #3C5A99; font-weight: bolder;"><i class="fab fa-facebook-square fa-4x"></i></span></a>
-            </div>
-        </div>
     </div>
+
     </div>
     <!--
     Insert Video here
 
 -->
-    <div id="video-section" class="video-wrapper">
+    <!-- <div id="video-section" class="video-wrapper">
         <h2 class="heading-3 nospeaker watch">Watch the trailer</h2>
         <div id="video" class="w-embed w-iframe">
-            <style>.embed-container { position: relative; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+            <style>
+                .embed-container {
+                    position: relative;
+                    height: 0;
+                    overflow: hidden;
+                    max-width: 100%;
+                }
+
+                .embed-container iframe,
+                .embed-container object,
+                .embed-container embed {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            </style>
             <div class="embed-container">
-                <!-- <iframe id='ytplayer' width="560" height="315" src="https://www.youtube.com/embed/0CCuaBruXK0"
+                <iframe id='ytplayer' width="560" height="315" src="https://www.youtube.com/embed/0CCuaBruXK0"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe> -->
-                <!-- <iframe width="560" height="315" src="https://scontent-lax3-2.cdninstagram.com/vp/bd5243ee597c051e176e12344e7feb94/5C88C2A3/t50.2886-16/31262175_2006029092992371_8266570090581852160_n.mp4?_nc_ht=scontent-lax3-2.cdninstagram.com"
+    <!-- <iframe width="560" height="315" src="https://scontent-lax3-2.cdninstagram.com/vp/bd5243ee597c051e176e12344e7feb94/5C88C2A3/t50.2886-16/31262175_2006029092992371_8266570090581852160_n.mp4?_nc_ht=scontent-lax3-2.cdninstagram.com"
                     frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe> -->
 
-                <!-- <video width="100%" height="950" controls src="/img/31262175_2006029092992371_8266570090581852160_n.mp4"></video> -->
-                <div class="video-responsive">
-                    <!-- <iframe id="taster" width="800px" height="900px" src="/img/31262175_2006029092992371_8266570090581852160_n.mp4"></iframe> -->
-                </div>
-            </div>
-        </div>
+    <!-- <video width="100%" height="950" controls src="/img/31262175_2006029092992371_8266570090581852160_n.mp4"></video> -->
+    <!-- <div class="video-responsive"> -->
+    <!-- <iframe id="taster" width="800px" height="900px" src="/img/31262175_2006029092992371_8266570090581852160_n.mp4"></iframe> 
     </div>
+    </div>
+    </div>
+    </div> -->
 
     <!-- About section -->
-    <div class="title-section light scroll px-3" id="about" >
+    <div class="title-section light scroll px-3" id="about">
         <h1 class="heading-3 nospeaker">SoCal Youth Conference<br>TWENTYNINETEEN</h1>
         <div class="date date2019">
             <br><br>
-            ​SoCal YOuth Conference is a​ yearly gathering​ for people​ to 
+            ​SoCal YOuth Conference is a​ yearly gathering​ for people​ to
             <br>
-            encounter God, equip each other, and empower the next generation of leaders​. 
-            ​<br> 
+            encounter God, equip each other, and empower the next generation of leaders​.
+            ​<br>
             Join us as we delve deeper into finding our purpose with your brothers and sister
             <br>
             and find out <span style="font-weight: bold; color: #878064;">"What is your Y"</span>
@@ -102,23 +130,25 @@
             Saturday
             <br>June 1st // 09:00 // Fullerton, CA
             <br><br>
-        ‍</div>
+            ‍</div>
         <div class="line"></div>
         <div class="container py-5">
             <div id="map-container" class="row align-items-center align-items-stretch">
                 <div class="col-xl-6 p-0">
-                    <img id='mapimage' class="map-image" src="https://api.mapbox.com/v4/mapbox.emerald/pin-l-heart+285A98(-117.942131,33.878641)/-117.942131,33.878641,16/600x300@2x.png?access_token=pk.eyJ1Ijoid2lsbGd1bmFkaS1zZSIsImEiOiJjanN3ejkzOWkwMnJyM3lsOWowZndheWhmIn0.ZstVOVu-ZilQpEKfYgoBUg"
+                    <img id='mapimage' class="map-image"
+                        src="https://api.mapbox.com/v4/mapbox.emerald/pin-l-heart+285A98(-117.942131,33.878641)/-117.942131,33.878641,16/600x300@2x.png?access_token=pk.eyJ1Ijoid2lsbGd1bmFkaS1zZSIsImEiOiJjanN3ejkzOWkwMnJyM3lsOWowZndheWhmIn0.ZstVOVu-ZilQpEKfYgoBUg"
                         alt="Mapbox Map of -117.942131,33.878641">
                 </div>
                 <div id="maptext.off" class="col-xl-6 p-0">
                     <div class="d-flex justify-content-center map-text map" style="height:100%">
                         <div class="align-self-center">
-                            
+
                             <span style="font-size: 32px;">JOIN US</span>
                             <br><br><br><br>
-                            IPC Fullerton<br><br>
-                            838 N Euclid St, Fullerton, CA 92832
-                            
+                            <span style="line-height: 30px; font-size: 12px;">IPC Fullerton<br>
+                                838 N Euclid St, Fullerton<br>
+                                CA 92832
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -129,38 +159,40 @@
         <div id="prices" class="registration-info">
             <div class="row equal">
                 <div class="col-lg reg-pad">
-                    REGister Now
+                    <div class='countdown' data-date="2019-04-26" data-time="24:00"></div>
                 </div>
             </div>
+            <h6 id="reg-end">Registration Ends April 6th Midnight</h6>
             <div class="row" style="padding-top:50px;">
                 <div class="col-md-6 col-sm-6 colmn-pad d-flex justify-content-center">
-                    <div class="card h-100 ">
+                    <div class="card h-60 ">
                         <div class="card-body">
-                            <h4 class='card-title'>Tier 1</h4>
+                            <h4 class='card-title'>Registration Package</h4>
                             <ul class='list-group list-group-flush list-pad' style='border: none'>
-                                <li class="list-group-item" style="border: none">SoCal YouthCon T-Shirt</li>
-                                <li class="list-group-item" style="border: none">SoCal YOuthCon Lanyard</li>
-                                <li class="list-group-item" style="border: none">Breakfast Provided</li>
-                                <li class="list-group-item" style="border: none">Lunch Provided</li>
+                                <li id="first-li" class="list-group-item" style="border: none">YouthCon 2019 T-Shirt
+                                </li>
+                                <li class="list-group-item" style="border: none">YouthCon 2019 Journal</li>
+                                <li class="list-group-item" style="border: none">Breakfast - Lunch </li>
+                                <li class="list-group-item" style="border: none">Snacks Provided</li>
                             </ul>
                             <br><br><br>
-                            <span style="font-weight: 900; font-size: 20px; letter-spacing: 4px;">$20</span>
+                            <li class="list-group-item money" style="border:none">$20</li>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12 colmn-pad d-flex justify-content-center">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h4 class='card-title'>Tier 2</h4>
+                            <h4 class='card-title'>Day Of Event Registration Package</h4>
                             <ul class='list-group list-group-flush'>
-                                <li class="list-group-item" style="border: none">SoCal YouthCon T-Shirt</li>
-                                <li class="list-group-item" style="border: none">SoCal YOuthCon Lanyard</li>
-                                <li class="list-group-item" style="border: none">Breakfast Provided</li>
-                                <li class="list-group-item" style="border: none">Lunch Provided</li>
-                                <li class='list-group-item' style="border: none">Something else that's free</li>
-                                <li class='list-group-item' style="border: none">Something else that's free</li>
+                                <li class="list-group-item" style="border: none">Breakfast - Lunch</li>
+                                <li class="list-group-item" style="border: none">Snacks Provided</li>
+                                <li class="list-group-item" style="border: none"></li>
+                                <li class="list-group-item" id="sub-reg" style="border: none;">YouthCon
+                                    2019 T-Shirt
+                                    and Journal Available for Purchase</li>
+                                <li class="list-group-item money" style="border:none">$25</li>
                             </ul>
-                            <span style="font-weight: 900; font-size: 20px; letter-spacing: 4px;">$30</span>
                         </div>
                     </div>
                 </div>
@@ -179,7 +211,7 @@
         <div class="sch-section px-0 py-5" style="">
             <div class="row no-gutters">
                 <div class="col-lg-12 col-md-12 col-xs-12">
-                    <h2 class="yellow alt heading _2019">agenda</h2>
+                    <h2 class="yellow alt heading _2019">Activities</h2>
                 </div>
             </div>
             <!-- Use h3 and h4 with class "agenda" -->
@@ -187,7 +219,8 @@
                 <!-- Morning -->
                 <div class="col-lg-4">
                     <div class="d-flex align-items-center" style="min-height:200px;">
-                        <span class="block-title col-4 col-sm-7 col-lg-4 col-xl-6 text-center pl-4 pr-4 px-sm-2">Block One</span>
+                        <span class="block-title col-4 col-sm-7 col-lg-4 col-xl-6 text-center pl-4 pr-4 px-sm-2">Block
+                            One</span>
                         <div class="block-time col-8 col-sm-5 col-lg-8 col-xl-6 pl-4 pr-4 px-sm-2">
                             <h4 class="sess">Check In and Breakfast // 9:00</h4>
                             <h4 class="sess">Introductions // 10:00</h4>
@@ -197,7 +230,8 @@
                 <!-- Session 1 -->
                 <div class="col-lg-4">
                     <div class="d-flex align-items-center" style="min-height:200px;">
-                        <span class="block-title col-4 col-sm-7 col-lg-4 col-xl-6 text-center pl-4 pr-4 px-sm-2">Block Two</span>
+                        <span class="block-title col-4 col-sm-7 col-lg-4 col-xl-6 text-center pl-4 pr-4 px-sm-2">Block
+                            Two</span>
                         <div class="block-time col-8 col-sm-5 col-lg-8 col-xl-6 pl-4 pr-4 px-sm-2">
                             <h4 class="sess">Worship Session 1 // 10:50</h4>
                             <h4 class="sess">Purpose Session 1 // 11:00</h4>
@@ -210,7 +244,8 @@
                 <!-- Session 2 -->
                 <div class="col-lg-4">
                     <div class="d-flex align-items-center" style="min-height:200px;">
-                        <span class="block-title col-4 col-sm-7 col-lg-4 col-xl-6 text-center pl-4 pr-4 px-sm-2">Block Three</span>
+                        <span class="block-title col-4 col-sm-7 col-lg-4 col-xl-6 text-center pl-4 pr-4 px-sm-2">Block
+                            Three</span>
                         <div class="block-time col-8 col-sm-5 col-lg-8 col-xl-6 pl-4 pr-4 px-sm-2">
                             <h4 class="sess">Purpose Session 3 // 02:30</h4>
                             <h4 class="sess">Discussion Session // 03:10</h4>
@@ -223,56 +258,125 @@
             </div>
         </div>
     </div>
-<style>
-.block-title {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    color: black;
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-</style>
+    <style>
+        .block-title {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+            color: black;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+    </style>
+    <!-- Testing out Actiities section -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 test-border">
+                <div class="card icon-box">
+                    <div class="card-body">
+                        <p class="card-text">Worship</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 test-border">
+                <div class="card icon-box">
+                    <div class="card-body">
+                        <p class="card-text">Workshop</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 test-border">
+                <div class="card icon-box">
+                    <div class="card-body">
+                        <p class="card-text">Guest Speaker</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 test-border">
+                <div class="card icon-box">
+                    <div class="card-body">
+                        <p class="card-text">Free Breakfast and lunch</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 test-border">
+                <div class="card icon-box">
+                    <div class="card-body">
+                        <p class="card-text">Games and Prizes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 test-border">
+                <div class="card icon-box">
+                    <div class="card-body">
+                        <p class="card-text">Raffle and Free Merch</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <!-- Quotes Section -->
-    <div id="story" class="title-section">
+    <div id="mission" class="title-section">
+        <div class="mission-statement">
+            <h3 class="mission-text">Our Mission</h3>
+        </div>
         <div class="container-3 _2019 w-container">
             <div class="quote-wrapper">
-                <blockquote class="block-quote"><br>What is your "Y"<br>Extra Content for conference theme<br>Testing
-                    how It'll look with verse
-                    <br>What is your "Y"<br>Lorem ipsum dolor sit amet,<br>usce non lobortis mi. In dapibus
-                    odio<br>Mauris
-                    imperdiet faucibus enim
-                    <br>Donec vulputate mi arcu
-                    <br>Vivamus pharetra cursus lorem. <br>go.<br><br>Come to the conference<br>‍<br>Signature
-                    Milk Tea<br>‍</blockquote>
+                <blockquote class="block-quote"><br>Youth Con is a non-profit organization that helps<br>
+                    youth cultivate into leaders in their community through Christian ministry.
+                    Each year, we organize an event called Youth Con hosted by multiple churches in Southern
+                    California.<br>This Event will be held in Indonesian Presbyterian Church in Fullerton on June 1st,
+                    2019.<br>
+                    <br>
+                    The purpose of YouthCon is to connect and form a community of young believers to grow and learn
+                    about
+                    Jesus Christ together. It is a full day conference where the youth will be able to explore, share,
+                    and connect
+                    with their peers and encourage one another in their walk with the Lord.<br>
+                    <br>
+                    This is our third year and we have seen wonderful results. Each year we have grown in numbers. Our
+                    first year,
+                    we had 3 churches in attendance with 40 members. Our second year, we more than doubled. This year,
+                    we would like
+                    to triple our attendance.
+                    ‍</blockquote>
             </div>
-            <div class="quote-wrapper"></div><a href="/html/registration.html" target="_blank" class="register-btn _2018 small _2019 w-button">REGISTER
+            <div class="quote-wrapper"></div><a href="/html/registration.html" target="_blank"
+                class="register-btn _2018 small _2019 w-button">REGISTER
                 NOW</a>
         </div>
     </div>
     <!-- Footer? -->
 
-    
+
 </body>
-<script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous">
-    </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <!-- Bootstrap dependencies -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <!-- script for smooth scrolling -->
-    <script src="https://uploads-ssl.webflow.com/56c4d46f1457615e44ce9537/js/vous-conference-2019.2d5fc91ee.js" type="text/javascript"></script>
-    <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
-    <script src="http://samuelfrancis.com/js/app.js"></script>
-    <script src="js/timer.js" type="text/javascript"></script>
+<script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<!-- Countdown -->
+<script src="/js/countdown.js"></script>
+<!-- Bootstrap dependencies -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+<!-- script for smooth scrolling -->
+<script src="https://uploads-ssl.webflow.com/56c4d46f1457615e44ce9537/js/vous-conference-2019.2d5fc91ee.js"
+    type="text/javascript"></script>
+<!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+<!-- <script src="http://samuelfrancis.com/js/app.js"></script> -->
+<script src="js/timer.js" type="text/javascript"></script>
+
 </html>
 
 <!-- 

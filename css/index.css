@@ -29,7 +29,25 @@ h4.agenda {
     text-transform: uppercase;
 }
 
+/* Social Icons */
+.soc-icon {
+    width: 120px;
+    right: 0;
+    position: absolute;
+    display: inline;
+    /* text-align: center; */
 
+}
+
+.fab {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo-icon {
+    position: absolute;
+    padding: 0 0 0 10px;
+}
 
 .sch-section {
     height: 100%;
@@ -60,14 +78,38 @@ h3.agenda {
     border: 2px solid white;
     /* border-radius: 90px; */
     width: 25vw;
+    min-height: 400px;
 }
 
 .card-title {
-    font-size: 25px;
+    font-size: 20px;
+    overflow: auto;
+    line-height: 50px;
+    min-height: 100px;
+}
+
+#sub-reg {
+    /* margin-top: 40px; */
+    font-size: 10px;
+    padding-top: 100px;
+}
+
+.money {
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 4px;
+    bottom: 0;
+    padding-top: 0.50rem;
 }
 
 .list-group-item {
     background-color: transparent;
+    padding-top: 0.50rem;
+    padding-bottom: 0.50rem;
+
 }
 
 .grp-container {
@@ -100,9 +142,10 @@ h3.agenda {
 .reg-pad {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 65px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     letter-spacing: 12px;
-    font-size: 5vw;
+    font-size: 3em;
+    line-height: 1;
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -159,7 +202,7 @@ h3.agenda {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     /* font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; */
-    font-size: 1.1vw;
+    font-size: 0.9vw;
     font-weight: 200;
     letter-spacing: 2px;
     line-height: 40px;
@@ -206,20 +249,6 @@ h3.agenda {
     text-align: center;
 }
 
-h6::after {
-    background-color: #333;
-    content: "";
-    display: inline-block;
-    height: 1px;
-    position: center;
-    vertical-align: middle;
-    width: 30vw;
-    /* Adust the distance between text => line */
-    left: 3.0em;
-    /* Adjust the distance between the first letter of text and left of screen */
-    margin-right: -80%;
-}
-
 
 /* Testing Schedule CSS */
 .sch-left-time {
@@ -252,11 +281,15 @@ h6::after {
     padding-top: 125px;
     padding-left: 12%;
     padding-right: 12%;
-    /* max-width: 100%; */
+    max-width: 100%;
     height: 50%;
     z-index: 2000;
     position: relative;
 
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; */
 }
 
 
@@ -286,19 +319,27 @@ h6::after {
     font-weight: 200;
 }
 
+h6#reg-end {
+    font-size: 16px;
+    letter-spacing: 4px;
+
+}
+
 /* Map */
 
-#map-container{
+#map-container {
     border: solid black 2px;
 }
+
 .map-image {
-    //border: solid black 2px;
+    border: solid black 2px;
 }
 
 .map-text {
-    //border: solid black 2px;
-    padding:30px 10px
+    border: solid black 2px;
+    padding: 30px 10px
 }
+
 /* content of right side of map */
 div.map {
     color: #fff3e6;
@@ -341,6 +382,31 @@ h4.sess {
     font-weight:normal;
 }
 
+/* Actvities */
+
+.test-border {
+    border: solid black 1px;
+
+}
+
+.icon-box {
+    /* width: 10rem; */
+}
+
+/* Mission STatement */
+
+.mission-statement {
+    text-align: center;
+}
+
+h3.mission-text {
+    color: black;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
 @media only screen and (max-width: 415px) {
 
     .title.text {
@@ -354,11 +420,18 @@ h4.sess {
         padding-top: 10px;
     }
 
+    #sub-reg {
+        font-size: 1.5vw;
+    }
+
     .card {
         align-self: center;
         width: 80vw;
     }
 
+    .card-title {
+        font-size: 15px;
+    }
 
 
     .map-col {
