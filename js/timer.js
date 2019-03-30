@@ -1,17 +1,9 @@
-// const youthCon = new Date('June 1, 2019 09:00:00').getTime();
-// const curntTime = new Date().getTime();
+/*
+    Author: Will Gunadi
+    Date Created: 3/15/2019
+    Purpose: Remove and Resize Social Icons
 
-// const cntDown = youthCon - curntTime;
-// const days, hours, min, sec;
-
-// days = Math.floor(cntDown / (1000 * 60 * 60 * 24));
-// hours = Math.floor((cntDown % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-// min = Math.floor((cntDown % (1000 * 60 * 60)) / (1000 * 60));
-// sec = Math.floor((cntDown % (1000 * 60)) / 1000);
-
-// console.log(youthCon);
-
-
+*/
 const maptext = document.getElementById('maptext');
 const mapImage = document.getElementById('mapimage');
 const igIcon = document.querySelector(".fa-instagram");
