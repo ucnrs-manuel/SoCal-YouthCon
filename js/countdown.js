@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /*
 	Author: Will Gunadi - JQuery 
 	Date Created: 3/27/2019
@@ -7,6 +8,9 @@
 	function pad(n) {
 		return (n < 10) ? ("0" + n) : n;
 	}
+=======
+(function ( $ ) {
+>>>>>>> Stashed changes
 
 	$.fn.showclock = function () {
 		//Variable Declaration
@@ -86,3 +90,7 @@ jQuery(document).ready(function () {
 
 	}
 })
+
+function pad(n) {
+	return (n < 10) ? ("0" + n) : n;
+}

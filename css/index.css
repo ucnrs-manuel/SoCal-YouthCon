@@ -90,6 +90,10 @@ h3.agenda {
     min-height: 100px;
 }
 
+.card-body.activity {
+    padding: 1rem 0 0 0;
+}
+
 #sub-reg {
     /* margin-top: 40px; */
     font-size: 10px;
